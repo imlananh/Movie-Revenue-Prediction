@@ -1,0 +1,13 @@
+Model                         R2        MSE       MSLE      
+------------------------------------------------------------
+cnn                           0.6551    1.3010    0.0049    
+decision_tree                 0.5994    1.5114    0.0059    
+decision_tree_bagging         0.7105    1.0919    0.0042    
+dnn                           0.5857    1.5629    0.0060    
+gradient_boost                0.7350    0.9995    0.0040    
+linear_regression             0.6520    1.3127    0.0051    
+linear_regression_pca         0.2312    2.9004    0.0104    
+lstm                          0.0573    3.5563    0.0124    
+random_forest                 0.7229    1.0874    0.0044    
+tracking_XGBoost              0.7402    1.0193    0.0041    
+XGBoost                       0.7402    1.0193    0.0041    
